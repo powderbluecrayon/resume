@@ -1,0 +1,76 @@
+% LaTeX resume using res.cls
+\documentclass[line,margin]{res} 
+\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+
+\begin{document}
+\name{Aaron Merrill}
+% \address used twice to have two lines of address
+%\address{1431 57th St., Des Moines, IA}
+\address{(641) 814-2018 $\vert$ aaron@Aarons.site}
+
+\begin{resume}
+
+\section{COMPUTER \\ SKILLS} 
+	{\sl Languages:} C\#.NET, SQL, ASP.NET, Java\\
+	{\sl Software:} Visual Studio 2008/2017, Crystal Reports, MySQL
+ 
+\section{EXPERIENCE} {\sl Software Developer} - AgVision, Ankeny, IA \hfill January 2012 - Present \\ \\
+	Payroll - ({\sl C\#.NET Application})
+    \begin{itemize}  % reduce space between items
+   		\item Developed dialog box to read ASCII files and create time entry records in a MySQL database
+    	\item Fixed issues with critical calculations that must be accurate to the penny
+    	\item Converted legacy CADOL payroll system to C\#.NET
+    	\item Created dozens of reports using the Crystal Reporting engine
+    	\item Continuously made changes to accommodate Federal and State tax regulations
+    	\item Installed and maintained payroll systems on a select few customers' systems during beta testing
+    	\item After side-by-side beta testing was complete, moved to the Lead Developer position of the .NET payroll system and was responsible for installing in live working environments
+    	\item AgVision had its highest number of sales the first year that the new payroll system was rolled out
+	\end{itemize}
+	AgVision Anytime - ({\sl ASP.NET website})
+	\begin{itemize}
+		\item Modernized tools and languages used for increased functionality
+		\item Utilized open source projects to help with displaying on mobile platforms
+		\item Designed the theme used throughout the website 
+	\end{itemize}
+	Contact Manager - ({\sl C\#.NET Application - Interfaces with AgVision Anytime})
+	\begin{itemize}
+		\item Reached out to a client to determine the desired functionality
+		\item Created the database tables and implemented them into an existing database
+		\item Added texting and e-mailing functionality
+		\item Was the full-stack developer on this project
+	\end{itemize}
+	Financial applications - ({\sl Accounts Payable, Accounts Receivable, General Ledger, etc.})
+	\begin{itemize}
+		\item Translated several forms and code changes from J++ to C\#.NET
+		\item Learned the inner-workings of these products while developing bug fixes and adding functionality
+	\end{itemize}
+	Other
+	\begin{itemize}
+    	\item Made small tools to make my work more time efficient and increase productivity
+    	\item Increased speed of interactions with database
+    	\item Decreased downtime for customers by more than 80\% for the J++ to C\#.NET conversion
+    	\item Maintained the InstallShield project for use during updates
+    \end{itemize}
+               
+\section{SIDE \\ PROJECTS}
+	Monthly House Payment Estimator
+	\begin{itemize}
+		\item Amortize the home value less the down payment
+		\item Estimate taxes and insurance to be added to the monthly mortgage payment
+		%\item Some other cool feature
+	\end{itemize}
+	Video Game and Movie Inventory System
+	\begin{itemize}
+		\item Desktop application for data entry and functions as the server
+		\item Android application can scan a bar code and inform the user if an item has been purchased, and displays prices from eBay and amazon
+	\end{itemize}
+           
+\section{EDUCATION} {\sl A.A.S.,} Computer Programming \hfill August 2011 \\
+% \sl will be bold italic in New Century Schoolbook (or
+% any postscript font) and just slanted in
+% Computer Modern (default) font
+Indian Hills Community College, Ottumwa, IA
+
+\end{resume}
+\end{document}

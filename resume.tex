@@ -1,0 +1,73 @@
+% LaTeX resume using res.cls
+\documentclass[line,margin]{res} 
+\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+
+\begin{document}
+\name{Aaron Merrill}
+\address{(641) 814-2018 $\vert$ ajm@powderbluecrayon.com $\vert$ GitHub.com/aaronjmerrill}
+\begin{resume}
+ 
+\section{SKILLS} 
+  {\sl Languages:} ARM, bicep, Terraform, yaml, Powershell, bash, C\#, SQL, Angular, React, Python\\	
+  {\sl Tools / Frameworks:} Azure DevOps, Github Actions, Entity Framework Core, HotChocolate, Typescript, Next JS, Jest
+ 
+\section{EXPERIENCE} 
+	Source Allies \hfill March 2019 - Present \\ 
+	{\sl Senior Full Stack Developer / Cloud Architect} - Variety Royalties \hfill August 2023 - Present
+	\begin{itemize}
+		\item Tech stack: NextJS, React, TypeScript, Tailwind, C\#, HotChocolate, Sql Server, Github Actions
+		\item Created deployment pipeline
+		\item Initialized the C\# project utilizing HotChocolate to serve a federated GraphQL api
+		\item Utilized Azure Front Door and Private Endpoints to secure communication between the App Services and the UI and external api clients
+		\item Held frequent knowledge transer sessions with the client's in-house developers on modern technologies
+		\item Variety Royalties replaced a spreadsheet that our client had been using for their royalty rates 
+			and added auditing to the royalty changes 
+			as well as tighter security restrictions
+	\end{itemize} 
+	{\sl DevOps Engineer} - AMA \hfill July 2023
+	\begin{itemize}
+		\item Tech stack: Node, Typescript, Terraform, Github Actions
+		\item Implemented use of Azure Key Vault for OTP flow for new hires
+		\item Set default email groups for new employees via Terraform and Microsoft's Graph api
+	\end{itemize} 
+	{\sl Lead DevOps Engineer} - SeedPro \hfill October 2021 - June 2023 
+	\begin{itemize}
+		\item Tech stack: ARM, bicep, Azure DevOps, Powershell, bash, C\#, Angular
+		\item Ramped up teammates on IaC and Azure
+		\item Migrated the 20+ projects from ARM to bicep, 
+			migrated 60+ deployment pipelines from Azure Pipelines (Classic) to yaml, 
+			and implemented templates to more effectively manage them
+		\item Migrated all deployment secrets to environment-specific Key Vaults and App Configurations
+		\item Automated the copy of data from upper to lower environments to assist QA and development teams to be more effective by using realistic data
+	\end{itemize} 
+	{\sl DevOps Engineer} - ActMod Integrate \hfill March 2021 - October 2021
+	\begin{itemize}
+		\item Tech stack: Azure Data Factory, ARM, Azure DevOps, yaml, python
+		\item Implemented a Dev/Prod deployment cycle for the Azure Data Factory
+		\item Ramped up the non-technical team leads on various modern development tools
+		\item Created a python Azure Function to fill a gap in the S3 connector capabilities at the time
+		\item Integrate facilitated data transfers to/from 6 sources, added metadata for use by downstream services, 
+			and tracked all traffic to an audit log
+	\end{itemize}
+	{\sl Senior Software Developer} - Grain Desk Pro \hfill March 2019 - March 2021
+	\begin{itemize}
+		\item Tech stack: Angular, Jest, Cypress, C\#, Swashbuckle, SpecFlow, EFCore, ARM, Azure Pipelines
+		\item Worked closely with the delivery lead to create and maintain a normalized database
+		\item Through pair programming I was ramped up on Angular as well as Azure, 
+			and I shared my expertise of C\# best practices including OOP and LINQ with the team
+		\item Before our project had gone live, there was a typo into the existing system that cost our client \$135,000. 
+			Grain Desk Pro eliminated these errors by completely automating the daily processes 
+	\end{itemize}
+	{\sl Software Developer} - AgVision \hfill January 2012 - March 2019
+	\begin{itemize} 
+		\item Tech stack: C\# WinForms, Crystal Reports, MySql
+		\item Converted legacy CADOL payroll and J++ finance systems to C\#.NET
+		\item AgVision had its highest number of sales the first year that the new payroll system was used
+	\end{itemize}
+           
+\section{EDUCATION} {\sl A.A.S.,} Computer Programming \hfill August 2011 \\
+Indian Hills Community College, Ottumwa, IA
+
+\end{resume}
+\end{document}
