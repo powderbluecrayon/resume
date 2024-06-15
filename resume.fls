@@ -1,8 +1,8 @@
-PWD /home/aaron/Desktop/desktop
+PWD /home/aaron/Desktop/desktop/resume
 INPUT /usr/local/texlive/2024/texmf.cnf
 INPUT /usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /home/aaron/Desktop/desktop/resume.tex
+INPUT /home/aaron/Desktop/desktop/resume/resume.tex
 OUTPUT resume.log
 INPUT ./res.cls
 INPUT res.cls

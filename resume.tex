@@ -1,7 +1,6 @@
 % LaTeX resume using res.cls
 \documentclass[line,margin]{res} 
-\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
-%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\usepackage{helvetica} 
 
 \begin{document}
 \name{Aaron Merrill}
@@ -9,26 +8,26 @@
 \begin{resume}
  
 \section{SKILLS} 
-  {\sl Languages:} ARM, bicep, Terraform, yaml, Powershell, bash, C\#, SQL, Angular, React, Python\\	
-  {\sl Tools / Frameworks:} Azure DevOps, Github Actions, Entity Framework Core, HotChocolate, Typescript, Next JS, Jest
+  {\sl Languages:} ARM, bicep, Terraform, yaml, Powershell, bash, C\#, SQL, Python\\
+  {\sl Tools / Frameworks:} Azure DevOps, Github Actions, Entity Framework Core, HotChocolate, Typescript, Next JS, Angular, React, Jest
  
 \section{EXPERIENCE} 
-	Source Allies \hfill March 2019 - Present \\ 
+	Source Allies \\ 
 	{\sl Senior Full Stack Developer / Cloud Architect} - Variety Royalties \hfill August 2023 - Present
 	\begin{itemize}
 		\item Tech stack: NextJS, React, TypeScript, Tailwind, C\#, HotChocolate, Sql Server, Github Actions
-		\item Created deployment pipeline
+		\item Architected the Azure infrastructure and the deployment pipelines
 		\item Initialized the C\# project utilizing HotChocolate to serve a federated GraphQL api
 		\item Utilized Azure Front Door and Private Endpoints to secure communication between the App Services and the UI and external api clients
-		\item Held frequent knowledge transer sessions with the client's in-house developers on modern technologies
-		\item Variety Royalties replaced a spreadsheet that our client had been using for their royalty rates 
-			and added auditing to the royalty changes 
-			as well as tighter security restrictions
+		\item Led knowledge transfer sessions with the client's in-house developers on modern technologies
+		\item Variety Royalties enabled our client to make changes to their rates more easily,
+			added auditing to the royalty changes and tighter security restrictions,
+			and enabled automation with external apps
 	\end{itemize} 
 	{\sl DevOps Engineer} - AMA \hfill July 2023
 	\begin{itemize}
 		\item Tech stack: Node, Typescript, Terraform, Github Actions
-		\item Implemented use of Azure Key Vault for OTP flow for new hires
+		\item Implemented use of Azure Key Vault for OTP flow for new hires' initial login
 		\item Set default email groups for new employees via Terraform and Microsoft's Graph api
 	\end{itemize} 
 	{\sl Lead DevOps Engineer} - SeedPro \hfill October 2021 - June 2023 
@@ -59,7 +58,8 @@
 		\item Before our project had gone live, there was a typo into the existing system that cost our client \$135,000. 
 			Grain Desk Pro eliminated these errors by completely automating the daily processes 
 	\end{itemize}
-	{\sl Software Developer} - AgVision \hfill January 2012 - March 2019
+	AgVision \\
+	{\sl Software Developer} - Payroll \& Financial \hfill January 2012 - March 2019
 	\begin{itemize} 
 		\item Tech stack: C\# WinForms, Crystal Reports, MySql
 		\item Converted legacy CADOL payroll and J++ finance systems to C\#.NET
